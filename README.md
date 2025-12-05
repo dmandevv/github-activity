@@ -46,7 +46,7 @@ go run main.go <github-username>
 
 Below are common ways to run the CLI and combine flags. Replace `dmandevv` with the GitHub username you want to inspect.
 
-- Show help / usage:
+- Show usage:
 
 ```shell
 github-activity dmandevv -help
@@ -66,7 +66,7 @@ github-activity dmandevv -per_page 50
 github-activity dmandevv -per_page 30 -page 2
 ```
 
-- Example: user not found (program prints a friendly message):
+- User not found:
 
 ```shell
 github-activity some-nonexistent-user-12345
