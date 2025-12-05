@@ -21,8 +21,7 @@ There are a few easy ways to get and run this project.
 
 ```shell
 go install github.com/dmandevv/github-activity@latest
-# then
-github-activity <github-username>
+github-activity dmandevv
 ```
 This installs the binary into your `$GOBIN` (or `$GOPATH/bin`) so you can run it globally.
 
@@ -39,7 +38,7 @@ After building you can run the generated `github-activity` binary.
 - **Run directly (quick, no install)**
 
 ```shell
-go run main.go <github-username>
+go run main.go dmandevv
 ```
 
 ## Usage examples ✅
